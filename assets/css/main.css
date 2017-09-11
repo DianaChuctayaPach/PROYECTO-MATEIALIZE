@@ -1,0 +1,20 @@
+/*=============================
+=            ABOUT            =
+=============================*/
+#sect-about{
+	background-color: #31C2B3;
+}
+#about-3{
+	background-color:  #403F3E;
+}
+.link:hover{
+	color: yellow;
+}
+#about-text{
+	color: white;
+}
+#img-circulo{
+	padding-top: 30px;
+}
+
+/*=====  End of ABOUT  ======*/
