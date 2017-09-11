@@ -1,4 +1,5 @@
 
+
 * {
     align-content: center;
     margin: 0;
@@ -9,6 +10,32 @@ body {
     min-height: 100vh;
     flex-direction: column;
     /*esta parte es del footer y debe ir obligatoriamente porque lo hace mas flexible*/
+}
+.titulo{
+    color: black;
+    text-align: center;
+}
+.titulo hr{
+    height: 4px;
+    width: 5%;
+    background-color: #6a6565;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+.galeria{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galeria img{
+    width: 400px;
+    height: 350px;
 }
 .h2 {
     font-family: 'Goblin One', cursive;;
@@ -136,3 +163,4 @@ main {
 .page-footer {
     background: #708A97;
 }
+
