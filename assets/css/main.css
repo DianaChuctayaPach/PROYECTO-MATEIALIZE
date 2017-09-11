@@ -1,0 +1,54 @@
+/*parte de Diana*/
+
+* {
+    padding: 0px;
+    /*outline: solid red;*/
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    /*esta parte es del footer y debe ir obligatoriamente porque lo hace mas flexible*/
+}
+
+#home {
+    height: 600px;
+    margin-top: 0px;
+    background-image: url(../img/libro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+}
+
+.text-home {
+    font-size: 2.4em;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.flex-container {
+    display: flex;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.page-footer {
+    background: #708A97;
+}
+
+
+/*fin de Diana*/
