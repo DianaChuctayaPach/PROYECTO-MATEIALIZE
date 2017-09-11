@@ -1,0 +1,26 @@
+.titulo{
+    color: black;
+    text-align: center;
+}
+.titulo hr{
+    height: 4px;
+    width: 5%;
+    background-color: #6a6565;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+.galeria{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galeria img{
+    width: 400px;
+    height: 350px;
+}
