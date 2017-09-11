@@ -21,11 +21,9 @@ body {
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
-    align-items: center;
     flex-direction: column;
     color: #fff;
     position: relative;
-    font-weight: 900px;
 }
 
 .text-home {
