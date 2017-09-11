@@ -1,3 +1,16 @@
+
+
+* {
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    /*esta parte es del footer y debe ir obligatoriamente porque lo hace mas flexible*/
+}
 .titulo{
     color: black;
     text-align: center;
@@ -24,3 +37,130 @@
     width: 400px;
     height: 350px;
 }
+.h2 {
+    font-family: 'Goblin One', cursive;;
+    font-size: 50px;
+    color: darkgray;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+/*     height: 1200px; */
+    background-size: 100%;
+}
+
+.carousel-inner {
+    border-style: dashed;
+    color: black;
+}
+
+.pantalla {
+    background-color: azure;
+}
+
+/* ===sonia
+ .container{
+	float: left;
+	margin-left: 70px;
+	margin-top: 30px;
+} ===*/
+
+#section-3{
+    margin-top: 4%;
+    width: 100%;
+    height: 500px;
+
+}
+.titulo{
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.secu-title{
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    color:#1ba8a3;
+}
+.concepto{
+    font-family: 'Princess Sofia', cursive; 
+   color: black;
+   font-size: 20px;
+}
+.cajas{
+    text-align: center;
+    width: 24%;
+    height: 300px;
+    box-shadow: 8px 10px 14px -8px #CECECE;
+    float: left;
+    text-align: center;
+    background-color:#F4F1F1;
+    padding-top:30px;
+    margin: 5px;
+    -webkit-transition:all  1s ease; 
+    -moz-transition:all 1s ease;
+    transition: all 1s ease; 
+}
+.cajas:hover{
+    padding-top:20px;
+    color: white;
+    background-color:#fff;
+    color:#936096;
+    background: #e7c6f0;
+
+}
+
+#sect-about{
+	background-color: #31C2B3;
+}
+#about-3{
+	background-color:  #403F3E;
+}
+.link:hover{
+	color: yellow;
+}
+#about-text{
+	color: white;
+}
+#img-circulo{
+	padding-top: 30px;
+}
+
+#home {
+    height: 600px;
+    margin-top: 0px;
+    background-image: url(../img/libro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+}
+
+.text-home {
+    font-size: 2.4em;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.flex-container {
+    display: flex;
+}
+main {
+    flex: 1 0 auto;
+}
+.page-footer {
+    background: #708A97;
+}
+
