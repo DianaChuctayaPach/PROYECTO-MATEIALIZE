@@ -11,6 +11,19 @@ body {
     flex-direction: column;
     /*esta parte es del footer y debe ir obligatoriamente porque lo hace mas flexible*/
 }
+#home {
+    height: 640px;
+    margin-top: 0px;
+    background-image: url(../img/libro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+}
 .titulo{
     color: black;
     text-align: center;
@@ -58,19 +71,24 @@ img{
 
 .pantalla {
     background-color: azure;
+    height: 640px;
 }
 
-/* ===sonia
- .container{
+/* ===sonia */
+ .contenedor{
 	float: left;
 	margin-left: 70px;
-	margin-top: 30px;
-} ===*/
+    margin-top: 30px;
+    /* font-size: 20px; */
+} 
+#formulario{
+    font-size: 18px;
+}
 
 #section-3{
     margin-top: 4%;
     width: 100%;
-    height: 500px;
+    height: 640px;
 
 }
 .titulo{
@@ -107,8 +125,8 @@ img{
     padding-top:20px;
     color: white;
     background-color:#fff;
-    color:#936096;
-    background: #e7c6f0;
+    color:#409A8C;
+    background: #96E4D8;
 
 }
 
@@ -128,19 +146,7 @@ img{
 	padding-top: 30px;
 }
 
-#home {
-    height: 600px;
-    margin-top: 0px;
-    background-image: url(../img/libro.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #fff;
-    position: relative;
-}
+
 
 .text-home {
     font-size: 2.4em;
@@ -161,6 +167,10 @@ main {
     flex: 1 0 auto;
 }
 .page-footer {
-    background: #708A97;
+    background: #2F5358;
+}
+#footer{
+    background: #143E44;
+    padding: 20px;
 }
 
